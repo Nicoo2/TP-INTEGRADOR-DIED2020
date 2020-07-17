@@ -1,6 +1,15 @@
 package frsf.isi.died.rutas;
 
+import frsf.isi.died.plantas.Planta;
+
 public class Ruta {
 
-	Integer peso;
+	private Double distancia;
+	private Integer duracionEstimadaMinutos;
+	private Integer pesoMaximo;
+	
+	Planta plantaOrigen;
+	Planta plantaDestino;
+	
+	
 }
