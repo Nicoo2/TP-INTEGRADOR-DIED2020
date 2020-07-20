@@ -1,4 +1,4 @@
-package frsf.isi.died.insumos;
+package frsf.isi.died.dominio;
 
 import frfs.isi.died.util.unidadesmedidas.UnidadDeMedida;
 

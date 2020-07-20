@@ -1,4 +1,4 @@
-package frsf.isi.died.insumos;
+package frsf.isi.died.dominio;
 
 public class InsumoLiquido {
 

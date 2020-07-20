@@ -1,4 +1,4 @@
-package frsf.isi.died.plantas;
+package frsf.isi.died.dominio;
 
 public class Planta {
 	

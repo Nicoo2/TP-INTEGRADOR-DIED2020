@@ -1,6 +1,6 @@
-package frsf.isi.died.rutas;
+package frsf.isi.died.dominio;
 
-import frsf.isi.died.plantas.Planta;
+
 
 public class Ruta {
 
@@ -8,8 +8,8 @@ public class Ruta {
 	private Integer duracionEstimadaMinutos;
 	private Integer pesoMaximo;
 	
-	Planta plantaOrigen;
-	Planta plantaDestino;
+	private Planta plantaOrigen;
+	private Planta plantaDestino;
 	
 	
 }
