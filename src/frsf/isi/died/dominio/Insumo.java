@@ -1,6 +1,6 @@
 package frsf.isi.died.dominio;
 
-import frfs.isi.died.util.unidadesmedidas.UnidadDeMedida;
+import frsf.isi.died.util.unidadesmedidas.UnidadDeMedida;
 
 public abstract class Insumo {
 

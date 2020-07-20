@@ -1,4 +1,4 @@
-package frfs.isi.died.dao;
+package frsf.isi.died.dao;
 
 public class CamionDao {
 
