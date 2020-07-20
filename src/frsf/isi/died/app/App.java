@@ -6,14 +6,17 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTable;
 import javax.swing.JTextField;
+
+import frsf.isi.died.gui.VentanaPrincipal;
 
 public class App {
 
 	private void armarApp() {
 		JFrame ventana=new JFrame("Gestor Camiones");
 		JPanel botones=new JPanel();
-		ventana.setSize(300, 300);
+		ventana.setSize(800, 500);
 		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JTextField texto=new JTextField(10);
 		JButton boton1 = new JButton("Apreta aca");
@@ -25,7 +28,9 @@ public class App {
 		botones.add(etiqueta);
 		botones.add(texto);
 		botones.add(boton1);
-		
+		Object[] nombrecolumnas = {"Nombre", "Apellido", "Edad"};
+		Object[][] datos ={{"Nombre1", "Apellido1", 22},{"Nombre2", "Apellido2", 4}};
+		botones.add(new JTable(datos,nombrecolumnas));
 		
 		ventana.setContentPane(botones);
 		ventana.setVisible(true);
@@ -34,12 +39,12 @@ public class App {
 	
 	
 	public static void main(String[] args) {
-	
 		App aplicacion = new App();
-		
 		aplicacion.armarApp();
+//		
+//		VentanaPrincipal ventana = new VentanaPrincipal();
+//		ventana.setVisible(true);
 		
-
 	}
 }
 	
